@@ -1,5 +1,5 @@
 {
-  "name": "array-parse",
+  "name": "array-stringify-stream",
   "version": "1.0.0",
   "description": "A utility for stringifying large JSON object arrays using node streams.",
   "files": [
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bienzaaron/array-parse.git"
+    "url": "git+https://github.com/bienzaaron/array-stringify-stream.git"
   },
   "keywords": [
     "stream",
@@ -24,9 +24,9 @@
   "author": "AJ Bienz <bienzaaronj@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bienzaaron/array-parse/issues"
+    "url": "https://github.com/bienzaaron/array-stringify-stream/issues"
   },
-  "homepage": "https://github.com/bienzaaron/array-parse#readme",
+  "homepage": "https://github.com/bienzaaron/array-stringify-stream#readme",
   "devDependencies": {
     "@types/node": "^16.11.26",
     "@types/tap": "^15.0.6",
