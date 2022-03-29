@@ -1,0 +1,38 @@
+{
+  "name": "array-parse",
+  "version": "1.0.0",
+  "description": "A utility for stringifying large JSON object arrays using node streams.",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tap --ts --coverage-report=lcov --coverage-report=text --no-browser index.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bienzaaron/array-parse.git"
+  },
+  "keywords": [
+    "stream",
+    "json",
+    "array",
+    "object"
+  ],
+  "author": "AJ Bienz <bienzaaronj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bienzaaron/array-parse/issues"
+  },
+  "homepage": "https://github.com/bienzaaron/array-parse#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.26",
+    "@types/tap": "^15.0.6",
+    "stream-collect": "^2.2.0",
+    "tap": "^16.0.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
