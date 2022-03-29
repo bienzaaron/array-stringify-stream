@@ -1,4 +1,6 @@
 # array-stringify-stream
+[![npm version](https://badge.fury.io/js/array-stringify-stream.svg)](https://badge.fury.io/js/array-stringify-stream)
+
 array-stringify-stream is a utility which stringifies JavaScript arrays into JSON using node streams. This is helpful for writing very large JSON arrays, where the entire array may not fit in application memory.
 
 Usage:
