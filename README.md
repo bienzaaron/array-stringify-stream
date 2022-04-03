@@ -13,7 +13,7 @@ const someArray = [
 ];
 
 const stringified = await pipeline(
-  Readable.from(basicArr),
+  Readable.from(someArray),
   stringify(),
   fs.createWriteStream('./file.json')
 );
@@ -23,7 +23,7 @@ const stringified = await pipeline(
 Writing as `ndjson`:
 ```javascript
 const stringified = await pipeline(
-  Readable.from(basicArr),
+  Readable.from(someArray),
   stringify("", "", "\n"),
   fs.createWriteStream('./file.json')
 );
@@ -33,7 +33,7 @@ const stringified = await pipeline(
 Using a custom stringifier function:
 ```javascript
 const stringified = await pipeline(
-  Readable.from(basicArr),
+  Readable.from(someArray),
   stringify("[", "]", ",", (obj) => 'foo'),
   fs.createWriteStream('./file.json')
 );
